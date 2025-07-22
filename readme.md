@@ -1,4 +1,4 @@
-# React Aria Tailwind Starker
+# React Aria Tailwind Starter
 
 Based on <https://react-spectrum.adobe.com/react-aria/getting-started.html>
 
