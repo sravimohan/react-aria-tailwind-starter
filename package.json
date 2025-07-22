@@ -33,7 +33,7 @@
     "lucide-react": "^0.292.0",
     "postcss": "^8.4.31",
     "react-aria": "^3.41.1",
-    "react-aria-components": "latest",
+    "react-aria-components": "^1.10.1",
     "tailwind-merge": "^3.3.1",
     "tailwind-variants": "^0.3.1"
   },
