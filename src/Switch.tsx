@@ -29,7 +29,7 @@ const handle = tv({
   variants: {
     isSelected: {
       false: 'translate-x-0',
-      true: 'translate-x-[100%]'
+      true: 'translate-x-full'
     },
     isDisabled: {
       true: 'forced-colors:outline-[GrayText]'
