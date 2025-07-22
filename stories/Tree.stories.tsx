@@ -1,4 +1,4 @@
-import type { Meta } from '@storybook/react';
+import type { Meta } from '@storybook/react-vite';
 import { Tree, TreeItem, TreeItemContent } from '../src/Tree';
 import React from 'react';
 

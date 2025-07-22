@@ -7,7 +7,7 @@ import { Separator } from '../src/Separator';
 import { ToggleButton } from '../src/ToggleButton';
 import { Toolbar } from '../src/Toolbar';
 
-import type { Meta } from '@storybook/react';
+import type { Meta } from '@storybook/react-vite';
 
 const meta: Meta<typeof Toolbar> = {
   component: Toolbar,

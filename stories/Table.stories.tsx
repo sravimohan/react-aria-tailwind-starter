@@ -1,4 +1,4 @@
-import type { Meta } from '@storybook/react';
+import type { Meta } from '@storybook/react-vite';
 import React, { useMemo, useState } from 'react';
 import { TableBody } from 'react-aria-components';
 import { Cell, Column, Row, Table, TableHeader } from '../src/Table';

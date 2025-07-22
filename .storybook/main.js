@@ -18,19 +18,18 @@ const config = {
     "../stories/**/*.mdx",
     "../stories/**/*.stories.@(js|jsx|mjs|ts|tsx)",
   ],
+
   addons: [
     "@storybook/addon-links",
-    "@storybook/addon-essentials",
     "@storybook/addon-onboarding",
-    "@storybook/addon-interactions",
+    '@storybook/addon-docs'
   ],
+
   framework: {
     name: "@storybook/react-vite",
     options: {},
   },
-  docs: {
-    autodocs: "tag",
-  },
+
   viteFinal: async (config) => {
     // Handle CSS processing
     config.css = config.css || {};
@@ -38,6 +37,7 @@ const config = {
     
     return config;
   },
+
   typescript: {
     reactDocgen: 'react-docgen-typescript',
     reactDocgenTypescriptOptions: {
