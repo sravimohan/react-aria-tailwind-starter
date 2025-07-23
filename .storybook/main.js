@@ -22,7 +22,8 @@ const config = {
   addons: [
     "@storybook/addon-links",
     "@storybook/addon-onboarding",
-    '@storybook/addon-docs'
+    '@storybook/addon-docs',
+    '@storybook/addon-vitest'
   ],
 
   framework: {
